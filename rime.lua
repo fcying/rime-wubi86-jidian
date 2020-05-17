@@ -10,7 +10,7 @@ function date_translator(input, seg)
       --- Candidate(type, start, end, text, comment)
       yield(Candidate("time", seg.start, seg._end, os.date("%H:%M:%S"), ""))
       yield(Candidate("time", seg.start, seg._end, os.date("%H:%M"), ""))
-	  yield(Candidate("time", seg.start, seg._end, os.date("%Y%m%d%H%M%S"), ""))
+      yield(Candidate("time", seg.start, seg._end, os.date("%Y%m%d%H%M%S"), ""))
    end
 end
 

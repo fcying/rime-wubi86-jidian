@@ -1,0 +1,146 @@
+# Rime dictionary - kaomoji
+# encoding: utf-8
+# ref: https://github.com/hitigon/meow-emoji-rime/blob/master/meow_emoji.dict.yaml
+#      https://gist.github.com/zolunx10/3848421#file-kaomoji-dict-yaml
+---
+name: kaomoji
+version: "0.1"
+sort: origin
+...
+
+壹	1
+贰	2
+叁	3
+肆	4
+伍	5
+陆	6
+柒	7
+捌	8
+玖	9
+零	0
+
+
+\（￣︶￣）/	bao bao
+o<(*≧▽≦)>ツ	bao xiao
+<(ˉ▽ˉ；=)>	e
+o<<(≧口≦)>>o	ku nao
+o<(=′益`=)>o	nan shou
+<(=o゜▽゜)o☆[BINGO!]	bingo
+<(=￢_￢=)>	bi shi
+<(=＠_＠;=)?>	bu dong
+ㄟ<(=▔.▔=)>ㄏ	bu guan wo shi
+(￣_,￣ =)>	qie
+<(≧▽≦)>	xiao
+ε=ε=~\<(= ￣皿￣)/~	chong
+o<(=⊙﹏⊙=)>︴o	chan dou
+<(＿　＿)>	dui bu qi
+o(￣ε￣=)>	du zui
+<(=⊙_⊙=)>	fa dai
+<(=￣▽￣=)>～■☆□～<(=￣▽￣=)>	gan bei
+<(=￣▽￣"=)>	he he
+<(=o゜▽゜)o☆	hao zhu yi
+<(=′⌒`=)>	miao wu
+<(=￣ε(￣＃)☆╰╮o(=￣皿￣///)>	bian ta
+<(=￣︿￣=)>	jue zui
+o(=￣ヘ￣o＃)>	heng
+╮<(=╯-╰=)>╭	wu nai
+凸(艹皿艹=)>	cao
+ヾ<(≧奋≦)>〃	fen
+♪q(^_^q=)><(=p^-^)p♪q(^-^q=)><(=p^_^)p♪	chang ge
+<(=￣﹃￣=)>	kou shui
+m(_ _)m	mo bai
+<(=╥﹏╥=)>	liu lei
+<(=￥▽￥=)>	qian
+<(=￣▽￣=)>	sha xiao
+<(＃￣▽￣＃)>	hai xiu
+<(=❤w❤=)>	xi huan
+o<(=╯□╰=)>o	jiong
+<(=∥ರ﹏ರ)σ	nan shou
+<(=╯▽╰=)>	ha
+
+°	du
+♂	nan
+♀	nv
+↑	shang
+↓	xia
+♥	xin
+★	xing
+✩	xing
+♪	yin fu
+♫	yin fu
+→	you
+↗	you shang
+↘	you xia
+←	zuo
+↖	zuo shang
+↙	zuo xia
+√	gou
+×	cha
+囗	kuang
+
+⑨	jiu
+∵	because
+∴	therefore
+~	sim
+∈	in
+⊂	subset
+⊆	subseteq
+∑	sum
+∏	prod
+∫	int
+∮	oint
+∀	forall
+∃	exists
+∇	nabla
+∆	triangle
+∞	infty
+≐	doteq
+
+Α	alpha
+Β	beta
+Γ	gamma
+Δ	delta
+Ε	epsilon
+Ζ	zeta
+Η	eta
+Θ	theta
+Ι	iota
+Κ	kappa
+Λ	lambda
+Μ	mu
+Ν	nu
+Ξ	xi
+Ο	omicron
+Π	pi
+Ρ	rho
+Σ	sigma
+Τ	tau
+Υ	upsilon
+Φ	phi
+Χ	chi
+Ψ	psi
+Ω	omega
+α	alpha
+β	beta
+γ	gamma
+δ	delta
+ε	epsilon
+ζ	zeta
+η	eta
+θ	theta
+ι	iota
+κ	kappa
+λ	lambda
+μ	mu
+ν	nu
+ξ	xi
+ο	omicron
+π	pi
+ρ	rho
+σ	sigma
+τ	tau
+υ	upsilon
+φ	phi
+χ	chi
+ψ	psi
+ω	omega

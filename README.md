@@ -1,6 +1,7 @@
 ![最好用的五笔输入法](https://user-images.githubusercontent.com/12215982/81521174-02788480-9379-11ea-84be-b56e0b5e72c9.gif)
-[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
+[![Badge](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg?style=flat-square)](https://996.icu/#/en_US)
+[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg?style=flat-square)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
 ## 一、前言
 
@@ -184,7 +185,7 @@ __本库 Wiki__
 
 ## 五、关于自定义一些功能
 
-所有配置说明都在配置文件中说明了，如果有其它问题可以在 `issue` 中提出，或者在群里（QQ群：878750538）讨论，有需要就 `@青枫`
+所有配置说明都在配置文件中说明了，如果有其它问题可以在 `issue` 中提出，或者在群里（QQ群：878750538）讨论，有需要就 `@青枫`，一定要 `@` 哟，不我看不到
 
 ### 1. 回车清码
 默认是关闭的
@@ -196,10 +197,11 @@ __本库 Wiki__
 
 ### 2. 编码提示
 照顾多数人的输入情况，默认是开启的，可以手动关闭
-如果想关闭，打开 `wubi86_jidian.schema.yaml` 编辑 `translator` -> `enable_completion` 改为 `false` 即可
+如果想关闭，打开 `wubi86_jidian.schema.yaml` 编辑 `translator` -> `comment_format` 改成如下即可
 
 ```yaml
-  enable_completion: false               # 提前显示编码未输入完整的词条
+  comment_format:                       # 提示码自定义
+    - xform/.+//                        # 配置：消除所有候选词后的提示码
 ```
 
 ### 3. 关于手动造词功能

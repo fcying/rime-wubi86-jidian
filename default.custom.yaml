@@ -18,18 +18,20 @@ patch:
   switcher/hotkeys:
     - Control+grave
     
-  ascii_composer/switch_key:
-    Caps_Lock: commit_code
-    Control_L: noop
-    Control_R: noop
-    Shift_L: noop
-    Shift_R: commit_code
+  ascii_composer:
+    good_old_caps_lock: true
+    switch_key:
+      Caps_Lock: commit_code
+      Shift_L: noop
+      Shift_R: commit_code
+      Control_L: noop
+      Control_R: noop
     
   menu/page_size: 5
   
   key_binder:
     bindings:
-      # emacs_editing https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml
+      # emacs key bindings, copy from https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml
       - { when: composing, accept: Control+p, send: Up }
       - { when: composing, accept: Control+n, send: Down }
       - { when: composing, accept: Control+b, send: Left }

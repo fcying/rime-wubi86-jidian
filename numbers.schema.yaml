@@ -22,6 +22,7 @@ schema:
 
 switches:
   - name: full_shape
+    reset: 0
     states: [ 壹贰叁, 一二三 ]
 
 engine:
@@ -150,3 +151,4 @@ punctuator:
     "D": 第
     "H": 号
     ">": 点
+    

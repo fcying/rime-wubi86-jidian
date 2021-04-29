@@ -11,27 +11,25 @@ patch:
     - schema: wubi86_jidian
     - schema: numbers
     - schema: pinyin_simp
-    #- schema: stroke
+    - schema: stroke
 
   switcher/caption: "[切换]"
   switcher/fold_options: true
   switcher/hotkeys:
     - Control+grave
     
-  ascii_composer:
-    good_old_caps_lock: true
-    switch_key:
-      Caps_Lock: commit_code
-      Shift_L: noop
-      Shift_R: commit_code
-      Control_L: noop
-      Control_R: noop
+  ascii_composer/switch_key:
+    Caps_Lock: commit_code
+    Control_L: noop
+    Control_R: noop
+    Shift_L: noop
+    Shift_R: commit_code
     
   menu/page_size: 5
   
   key_binder:
     bindings:
-      # emacs key bindings, copy from https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml
+      # emacs_editing https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml
       - { when: composing, accept: Control+p, send: Up }
       - { when: composing, accept: Control+n, send: Down }
       - { when: composing, accept: Control+b, send: Left }
@@ -55,6 +53,6 @@ patch:
         
   recognizer:
     patterns:
-      email: "^[-_.0-9A-Za-z]*@.*$"
+      email: "^[-_.0-9A-Za-z]+@.*$"
       uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
       url: "^(www[.]|https?:|ftp[.:]|mailto:|file:|localhost).*$|^[a-z]+[.].+$"

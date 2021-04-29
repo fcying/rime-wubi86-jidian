@@ -10,9 +10,9 @@ schema:
   description: |
     五笔字形 86 极点极爽版，方案由 KyleBing 修改 - 2019年11月08日 10:26
   dependencies:
-    - pinyin_simp
-    - kaomoji
-    - numbers
+    #- pinyin_simp
+    #- kaomoji
+    #- numbers
 
 switches:
   - name: full_shape
@@ -57,6 +57,7 @@ engine:
     - punct_segmentor
     - fallback_segmentor
   translators:
+    - history_translator@history
     - punct_translator
     - table_translator
     - script_translator@kaomoji_lookup
@@ -79,7 +80,7 @@ speller:
 translator:
   dictionary: wubi86_jidian             # 翻译器将调取此字典文件
   enable_charset_filter: true           # 开启字符集过滤
-  enable_completion: true               # 提前显示编码未输入完整的词条
+  enable_completion: true               # 是否显示编码未输入完整的词条
 
   enable_sentence: true                # 句子输入模式
   enable_user_dict: false              # 是否开启用户词典（用户词典记录动态字词频，用户词）
@@ -94,6 +95,11 @@ translator:
 #abc_segmentor:
 #  extra_tags:
 #    - pinyin_lookup
+
+history:
+  input: z
+  size: 1
+  initial_quality: 1000
 
 pinyin_lookup:
   tag: pinyin_lookup
